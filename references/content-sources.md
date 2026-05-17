@@ -1,33 +1,108 @@
 # 鲜之绝 · 内容资产清单
 
 > 最后更新: 2026-05-17
-> 状态: 飞书云文档权限待开通 (需要 `drive:drive` / `drive:drive:readonly` / `space:document:retrieve`)
+> 数据来源: 飞书共享文件夹 (已通过 API 读取)
 
-## 飞书共享文件夹
+## 大师视频（陆金华）— 25 个
 
-### 大师视频文件夹
-- **链接**: `https://qcn4zmmk6zvl.feishu.cn/drive/folder/GeOUfp26JlxLfmdjqdqc8JAbnDh`
-- **内容**: 陆金华大师做菜视频
-- **用途**: 配方内容提取 → `get_recipes` 工具数据源
+**来源**: `https://qcn4zmmk6zvl.feishu.cn/drive/folder/GeOUfp26JlxLfmdjqdqc8JAbnDh`
+**用途**: `get_recipes` + `get_usage_guide` 配方内容源
 
-### 达人视频文件夹
-- **链接**: `https://qcn4zmmk6zvl.feishu.cn/drive/folder/ALKJfCt25lMS6Xdr3ZRc5rgOnec`
-- **内容**: KOL/达人种草视频
-- **用途**: 品类教育场景素材 → `get_usage_guide` 灵感来源
+### 醉卤核心系列 (6个)
+| # | 视频 | 对应 Skill |
+|---|------|-----------|
+| 004 | 亲授：醉卤解惑篇 | get_usage_guide("pickle-sauce") |
+| 005 | 匠心：酿造鲜醉卤 | get_brand_info |
+| 006 | 匠成：醉卤御品成 | get_brand_info |
+| 013 | 讲解：醉卤百搭诀 | get_usage_guide("pickle-sauce") |
+| 014 | 醉卤：神器万物醉 | get_recipes (合集入口) |
+| 003 | 亲授：醉卤使用法 | get_usage_guide("pickle-sauce") |
 
-## 权限问题
+### 大师菜谱 (4个)
+| # | 视频 | 对应 Skill |
+|---|------|-----------|
+| 002 | 分享：醉虾蟹秘笈 | get_recipes("drunken-crab-shrimp") |
+| 011 | 传授：红烧肉秘籍 | get_recipes("red-braised-pork") |
+| 020-022 | 讲解：佛跳墙渊源1/2 + 流派 | get_recipes("buddha-jumps-wall") |
 
-飞书应用 `cli_a9353783c9381bd9` 缺少以下权限:
-- `drive:drive`
-- `drive:drive:readonly`
-- `space:document:retrieve`
+### 品牌故事 (9个)
+| # | 视频 | 对应 Skill |
+|---|------|-----------|
+| 007 | 匠心：择事终一生 | get_brand_info |
+| 008 | 峰会：聚顶尖匠才 | get_brand_info |
+| 009 | 用心：专注一事成 | get_brand_info |
+| 010 | 国厨：频道迎大师 | get_brand_info |
+| 015 | 参会：烧菜心得谈 | get_brand_info |
+| 016 | 参会：烧菜责任谈 | get_brand_info |
+| 017 | 传承：滋补盅长传 | get_brand_info |
+| 023 | 缘启：入厨学佛跳 | get_brand_info |
+| 024 | 器迁：大坛化小坛 | get_brand_info |
 
-**开通链接**: https://open.feishu.cn/app/cli_a9353783c9381bd9/auth?q=drive:drive,drive:drive:readonly,space:document:retrieve&op_from=openapi&token_type=tenant
+### 食材探访 (4个)
+| # | 视频 | 对应 Skill |
+|---|------|-----------|
+| 001 | 探访：大黄鱼养殖 | get_brand_info |
+| 012 | 探宝：长乐海蚌鲜 | get_brand_info |
+| 018 | 选蟹：精挑六月黄 | get_usage_guide |
+| 019 | 游观：看水吃跨国风景 | get_brand_info |
 
-## 内容集成计划
+### 厨道终章 (1个)
+| # | 视频 |
+|---|------|
+| 025 | 厨道：烹味如侍-亲 |
 
-权限开通后:
-1. 遍历两个文件夹，提取视频标题、描述、关键帧
-2. 从大师视频中提取配方步骤 → 写入 `get_recipes` 数据
-3. 从达人视频中提取使用场景 → 丰富 `get_usage_guide` 场景库
-4. 视频链接作为 SKILL.md 示例素材
+---
+
+## 达人视频 — 82 个
+
+**来源**: `https://qcn4zmmk6zvl.feishu.cn/drive/folder/ALKJfCt25lMS6Xdr3ZRc5rgOnec`
+**用途**: `get_usage_guide` 场景库 + `get_recipes` 菜谱拓展
+
+### 醉卤菜谱 (50个) — 2025/醉卤/
+| 菜系 | 典型菜谱 |
+|------|----------|
+| 花雕熟醉系列 | 醉蟹、醉虾、醉罗氏虾、醉小龙虾、醉大闸蟹 (10+个达人版) |
+| 醉卤海鲜 | 醉花蛤、醉河虾、醉籽虾、醉蛏子、醉卤海鲜拼盘、醉卤冰镇蛏子 |
+| 醉卤肉类 | 醉卤鸡爪大头虾、醉卤酱烧鸡翅、蒜泥白肉、茶香肉 |
+| 创意醉卤 | 话梅醉虾、雪碧醉卤罗氏虾、酱油溏心蛋、醉卤素鸡 |
+| 醉卤河鲜 | 醉卤河鲜、醉卤拼盘、醉卤炒河虾 |
+
+### 幹酱菜谱 (22个) — 2025/幹酱/
+| 菜系 | 典型菜谱 |
+|------|----------|
+| 上海经典 | 八宝辣酱/八宝酱丁、上海炒酱、经典炒酱、家常炒酱、老上海炒酱、本帮辣肉面 |
+| 面浇头 | 上海辣肉浇头 (3个版本)、杂酱面 (2个版本) |
+| 家常菜 | 红烧鸡块、辣椒肉糜烧土豆、肉糜豆腐粉丝煲、肉沫粉丝煲 |
+
+### 2026 新发布 (10个) — 2026/
+| 产品 | 合作达人 |
+|------|----------|
+| 醉卤 | md0027 + 季总/慧慧轻食 |
+| 幹酱 | md0026 + 亮先生/是郭郭吖/老杨好物/森海北屿/奕颗糖/季总 |
+
+---
+
+## 子目录结构
+
+```
+大师视频/
+├── S-原版视频/          (25 mp4/mov)
+└── S-yutube专用视频/    (24 mp4, YouTube 优化版)
+
+达人视频/
+├── 2025/
+│   ├── 鲜之绝醉卤/      (50 mp4, 含 1 重复视频子目录)
+│   └── 幹酱/            (22 mp4)
+└── 2026/                (10 mp4, 含 4 劣质标记视频)
+```
+
+---
+
+## Skill 数据集成状态
+
+| 来源 | 数量 | 状态 |
+|------|------|------|
+| 大师视频标题 | 25 | ✅ 已读取 |
+| 达人视频标题 | 82 | ✅ 已读取 |
+| 视频描述/字幕 | 0 | ❌ 待提取（需视频处理 pipeline） |
+| 文字版菜谱 | ? | ❓ 飞书有无文字版配方文档？ |
