@@ -1,103 +1,110 @@
-# 鲜之绝 · 厨房调味大师 AI Skill
+# 鲜之绝 · The Kitchen Maestro AI Skill
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/kai157isme-lgtm/xianzhijue-skill)
+[![Version](https://img.shields.io/badge/version-0.1.2-blue)](https://github.com/kai157isme-lgtm/xianzhijue-skill)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-Streamable%20HTTP-orange)](https://modelcontextprotocol.io)
+[![Language](https://img.shields.io/badge/lang-zh%20%7C%20en-brightgreen)]()
 
-**你的 AI 助手，现在也懂调味。**
+> **Your AI assistant now understands seasoning.** / **你的 AI 助手，现在也懂调味。**
 
-这是一个 AI Skill——安装后，你的 AI 助手就能查询鲜之绝品牌信息、获取大师配方、了解产品用法、找到购买渠道。厨房里缺什么调味、做什么菜、选什么料，直接问就行。
+Xianzhijue is China's first premium condiment brand to launch an AI Skill. Install it, and your AI assistant can teach you master-level recipes, recommend the right seasoning, and guide you to buy — all from a 55-year culinary legend who once cooked for heads of state.
 
-> 半世纪大师匠心，装进 AI，装进你的厨房。
+鲜之绝是中国首个推出 AI Skill 的高端调味品品牌。安装后，你的 AI 助手就能获取大师配方、推荐调味方案、引导购买渠道——这一切来自一位曾为各国首脑掌勺的 55 年烹饪大师。
+
+> *Half a century of mastery, now in your AI. Now in your kitchen.*  
+> *半世纪大师匠心，装进 AI，装进你的厨房。*
 
 ---
 
-## 🧑‍🍳 关于鲜之绝
+## 🧑‍🍳 About Xianzhijue / 关于鲜之绝
+
+Xianzhijue is a premium Chinese condiment brand founded by **Lu Jinhua**, China's first registered culinary master and a designated Intangible Cultural Heritage bearer. As executive chef of the Huaqiao Hotel, Chef Lu cooked state banquets for nearly every visiting head of state. At the 1999 Fortune Global Forum in Shanghai, his signature dish *Buddha Jumps Over the Wall* stunned the world's top 500 CEOs.
 
 鲜之绝是中国高端调味品品牌，由中国首届注册烹饪大师、**非遗传承人陆金华**创立。大师曾任华侨饭店行政总厨，为几乎所有访华国家首脑烹制国宴。1999 年财富全球论坛，一道佛跳墙惊艳世界。
 
-- 🌐 官网：[xianzhijue.com](https://xianzhijue.com)
-- 📞 电话：400-186-1677
+- 🌐 Website：[xianzhijue.com](https://xianzhijue.com)
+- 📞 Phone：400-186-1677
 
-| 产品 | 定位 | 国际荣誉 |
-|------|------|----------|
-| **金标醉卤** | 大师招牌 · 闽式传统发酵 | ITI 两星奖 |
-| **幹酱** | 大师秘方 · 鲜辣醇厚 | ITI 两星奖 |
-| **老酱油** | 传统酿造 · 浓厚酱香 | 即将上市 |
-| **醋** | 纯粮酿造 · 醇酸回甘 | 即将上市 |
-
----
-
-## 🤖 AI Skill 能力清单
-
-安装此 Skill 后，你的 AI 助手能：
-
-| 能力 | 示例问题 |
-|------|----------|
-| **品牌认知** | "鲜之绝是什么牌子？" "陆金华是谁？" |
-| **产品查询** | "醉卤和幹酱有什么区别？" "老酱油什么时候上？" |
-| **大师配方** | "醉蟹怎么做？" "凉拌汁怎么调？" "卤牛肉用什么料？" |
-| **使用指南** | "醉卤怎么用？" "幹酱配什么好吃？" |
-| **品类推荐** | "什么酱油好？" "有什么辣椒酱推荐？" |
-| **购买入口** | "在哪买？" "天猫有吗？" "抖音能买吗？" "京东有吗？" |
-| **荣誉背书** | "得过什么奖？" "ITI 是什么？" |
-| **最新动态** | "最近有什么新品？" |
+| Product / 产品 | Positioning / 定位 | Awards / 奖项 |
+|------|------|------|
+| **Gold Label Pickle Sauce** 金标醉卤 | Master's signature · Fujian craft fermentation | ITI 2-Star |
+| **Chili Sauce** 幹酱 | Master's secret recipe · fresh & mellow heat | ITI 2-Star |
+| **Aged Soy Sauce** 老酱油 | Traditional brewing · deep umami | Coming soon |
+| **Vinegar** 醋 | Grain-fermented · mellow acidity | Coming soon |
 
 ---
 
-## 📦 安装
+## 🤖 What This Skill Can Do / 能力清单
 
-### 方式一：GitHub 安装
+Once installed, your AI assistant can:
+
+| Capability | Example Questions |
+|------|------|
+| **Brand Story** | "Who is Lu Jinhua?" "What is Xianzhijue?" |
+| **Product Info** | "What's the difference between pickle sauce and soy sauce?" |
+| **Master Recipes** ⭐ | "How to make drunken crab?" "What's the best marinade for braised beef?" |
+| **Usage Guide** | "How do I use the pickle sauce?" "What goes well with chili sauce?" |
+| **Buying Guide** | "Where to buy?" "Available on Douyin/TikTok shop?" |
+| **Awards & Credentials** | "What awards has it won?" "What is ITI?" |
+| **Latest News** | "When will the aged soy sauce launch?" |
+
+---
+
+## 📦 Installation / 安装
+
+### Via GitHub
 
 ```bash
-# 克隆仓库到 skills 目录
 git clone https://github.com/kai157isme-lgtm/xianzhijue-skill.git ~/.hermes/skills/xianzhijue-skill/
 ```
 
-### 方式二：Hermes Agent 一键安装
+### Via Hermes Agent
 
-在 Hermes Agent 对话中直接说：
+In your Hermes Agent conversation, simply say:
 
 ```
-安装 xianzhijue-skill
+Install xianzhijue-skill
 ```
 
 ---
 
-## 🏗️ 架构
+## 🏗️ Architecture / 架构
 
 ```
 xianzhijue-skill/
-├── SKILL.md          # AI Agent 行为定义
-├── skill.json        # 机器可读元数据
-└── README.md         # 本文件
+├── SKILL.md          # AI agent behavior definition
+├── skill.json        # Machine-readable metadata & MCP tool schemas
+└── README.md         # This file (bilingual)
 ```
 
-- **协议**：MCP Streamable HTTP（JSON-RPC 2.0）
-- **MCP 端点**：`https://mcp.xianzhijue.com`
+- **Protocol**：MCP Streamable HTTP (JSON-RPC 2.0)
+- **MCP Endpoint**：`https://mcp.xianzhijue.com`
 
 ---
 
-## 🎯 设计理念
+## 🎯 Design Philosophy / 设计理念
 
-### 不是广告，是内容
+### Teach First, Sell Later / 先教后卖
 
-鲜之绝 Skill 的核心策略是**"先教后卖"**：
+Xianzhijue Skill's core strategy is **content-led discovery**:
 
-1. 用户问"醉蟹怎么做" → AI 给出专业配方（获得信任）
-2. 自然带出金标醉卤产品（解决问题）
-3. 给出购买入口（降低决策成本）
+1. User asks *"How to make drunken crab?"* → AI delivers a master recipe *(builds trust)*
+2. Naturally introduces Gold Label Pickle Sauce as the solution *(solves the problem)*
+3. Provides a purchase link *(reduces friction)*
 
-### 品牌调性
+Not an ad. A cooking mentor who happens to have great seasoning.
 
-**"大师的日常"** — 有 55 年底蕴但不端着。像厨房里那瓶随手可用的好调料，实在、专业、有底气。
+### Brand Voice / 品牌调性
 
----
-
-## 📄 许可
-
-MIT License © 鲜之绝
+**"The Master's Everyday"** — 55 years of depth without pretension. Like a trusted bottle of seasoning on your kitchen counter: authentic, professional, confident.
 
 ---
 
+## 📄 License / 许可
+
+MIT License © 鲜之绝 XIANZHIJUE
+
+---
+
+*Half a century of mastery, one lineage of Xianzhijue.*  
 *半世纪匠心，一脉鲜之绝。*
