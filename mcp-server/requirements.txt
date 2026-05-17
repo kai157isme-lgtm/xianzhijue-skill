@@ -1,0 +1,2 @@
+# 鲜之绝 MCP Server — Python only, no extra deps needed for basic HTTP handling
+# No external dependencies required for the Vercel serverless function
